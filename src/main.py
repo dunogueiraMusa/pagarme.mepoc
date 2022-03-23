@@ -55,6 +55,7 @@ def delete(user_id: int):
 
     return responseUsers()
 
+
 #realiza a atualização do usuário assim que inserir a nova info.
 @app.route("/users/<int:user_id>", methods = ["PUT"])
 def update(user_id: int):
